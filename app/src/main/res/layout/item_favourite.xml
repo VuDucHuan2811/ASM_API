@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_marginTop="10dp"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_favourite"
+            android:layout_width="130dp"
+            android:layout_height="90dp"
+            android:src="@drawable/orange"/>
+        <LinearLayout
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_tensp_favourite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:text="San Pham 1"/>
+            <TextView
+                android:id="@+id/txt_giasp_favourite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:text="14$"/>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/img_unfavorite"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="0dp"
+            android:background="@color/white"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_yeuthich"/>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

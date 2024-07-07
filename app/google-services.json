@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "888391855469",
+    "project_id": "and103-30b53",
+    "storage_bucket": "and103-30b53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888391855469:android:4d0300ff494b4d38477e64",
+        "android_client_info": {
+          "package_name": "acount.fpoly.ph35061.asm_and_api"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-0D0NZekWTcWnwSQXvENQPlwL3Fo4Pic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
